@@ -70,5 +70,8 @@
   .footer-content {
     grid-template-columns: 1fr auto 1fr;
   }
+  .footer-contact {
+    margin-top: 2rem;
+  }
 }
 </style>

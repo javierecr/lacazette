@@ -5,6 +5,8 @@
 html {
   min-height: 100vh;
   min-height: 100dvh;
+  height: 100vh;
+  height: 100dvh;
   font-family: 'Arial', sans-serif;
   font-size: 1.73vh;
   color: rgb(var(--black));
@@ -13,8 +15,13 @@ html {
 body {
   min-height: 100vh;
   min-height: 100dvh;
+  height: 100vh;
+  height: 100dvh;
   display: grid;
   grid-template-rows: 1fr;
+}
+body > * {
+  min-height: 0;
 }
 
 *,
@@ -35,8 +42,13 @@ a:hover {
 }
 
 img {
-  display: block;
   max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+  font-style: italic;
+  background-repeat: no-repeat;
+  background-size: cover;
+  shape-margin: 1rem;
 }
 
 .container {

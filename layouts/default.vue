@@ -18,6 +18,7 @@
 
 #layout > * {
   min-height: 0;
+  height: 100%;
 }
 
 @media screen and (max-width: 1023px) {
@@ -29,7 +30,7 @@
 @media screen and (min-width: 1024px) {
   #layout {
     grid-template-rows: auto 1fr auto;
-    row-gap: 3rem;
+    row-gap: 4rem;
     align-items: center;
     padding: 1rem;
   }
