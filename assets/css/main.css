@@ -8,9 +8,14 @@ html {
   height: 100vh;
   height: 100dvh;
   font-family: 'Arial', sans-serif;
-  font-size: 0.9685vw;
+  font-size: 2.0356vw;
   letter-spacing: -0.01em;
   color: rgb(var(--black));
+}
+@media screen and (min-width: 1024px) {
+  html {
+    font-size: 0.9685vw;
+  }
 }
 
 body {
@@ -69,23 +74,25 @@ img {
   font-style: italic;
 }
 
-.text-small {
-  font-size: 0.7264vw;
+@media screen and (min-width: 1024px) {
+  .text-small {
+    font-size: 0.7264vw;
+  }
+
+  .text-smaller {
+    font-size: 0.6457vw;
+  }
+
+  .text-smallest {
+    font-size: 0.4843vw;
+  }
 }
 
-.text-smaller {
-  font-size: 0.6457vw;
-}
-
-.text-smallest {
-  font-size: 0.4843vw;
-}
-
-.l-spacing-2 {
+.l-spacing-2-minus {
   letter-spacing: -0.02em;
 }
 
-.l-spacing-4 {
+.l-spacing-4-minus {
   letter-spacing: -0.04em;
 }
 

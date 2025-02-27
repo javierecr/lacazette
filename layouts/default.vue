@@ -13,7 +13,8 @@
   display: grid;
   row-gap: 2rem;
   height: 100%;
-  padding: 3rem 1rem;
+  padding: 3rem 0.5rem 0.5rem;
+  grid-template-rows: auto auto 1fr;
 }
 
 #layout > * {
@@ -24,6 +25,9 @@
 @media screen and (max-width: 1023px) {
   #layout {
     align-content: start;
+  }
+  #page {
+    order: 3;
   }
 }
 

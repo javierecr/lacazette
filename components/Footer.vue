@@ -1,30 +1,14 @@
 <template>
   <footer>
     <div class="footer-content">
-      <div class="text-smaller l-spacing-4">
-        <p>
-          Lacazette is a multi-disciplinary creative studio based in<br />
-          London, Paris & New York, that architects experiences that resonate.
-        </p>
-        <p>
-          Where impact meets aesthetic. we craft immersive worlds that deepen
-          <br />connections between brands and culture.
-        </p>
-        <p>
-          We don't follow trends - we set them. We don't just create - we shift
-          perspectives.<br />
-          We're here to lead culture.
-        </p>
-      </div>
-      <div class="footer-contact small-hide">
+      <Blurb class="small-hide" />
+      <div class="footer-contact">
         <p class="text-small">
           <a href="mailto:contact@lacazette.xyz">contact@lacazette.xyz</a>
         </p>
-        <p class="text-small italic">London / NYC</p>
-        <p class="text-smallest italic">
-          lacazette. xyz is currently under construction and will be back soon.
-        </p>
-        <p class="text-smallest color-gray">LACAZETTE LTD</p>
+        <p class="text-small italic small-hide">London / NYC</p>
+        <UnderConstruction class="small-hide" />
+        <p class="text-smallest color-gray small-hide">LACAZETTE LTD</p>
       </div>
     </div>
   </footer>
@@ -57,11 +41,11 @@
   justify-self: start;
 }
 
-.footer-contact {
-  text-align: center;
-  font-size: 0.75rem;
+@media screen and (max-width: 1023px) {
+  footer {
+    order: 1;
+  }
 }
-
 @media screen and (min-width: 1024px) {
   .footer-content {
     grid-template-columns: 1fr auto 1fr;
@@ -70,6 +54,8 @@
 
   .footer-contact {
     margin-top: 1.5rem;
+    font-size: 0.75rem;
+    text-align: center;
   }
 }
 </style>

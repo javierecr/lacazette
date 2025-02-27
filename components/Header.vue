@@ -1,16 +1,10 @@
 <template>
   <header class="header-content">
+    <TagLine class="medium-up-hide" />
     <h1>
       <img src="/img/logo_lacazette.svg" alt="lacazette logo" class="logo" />
-      <img src="/img/logo_lacazette.svg" alt="lacazette logo" class="logo" />
-      <img src="/img/logo_lacazette.svg" alt="lacazette logo" class="logo" />
     </h1>
-    <p class="medium-up-hide"><small>London / NYC</small></p>
-    <p class="medium-up-hide header-email">
-      <small
-        ><a href="mailto:contact@lacazette.xyz">contact@lacazette.xyz</a></small
-      >
-    </p>
+    <p class="medium-up-hide">London / NYC</p>
   </header>
 </template>
 
@@ -22,7 +16,11 @@
 @media screen and (max-width: 1023px) {
   .header-content {
     display: grid;
-    row-gap: 1rem;
+    order: 2;
+  }
+
+  .logo {
+    margin-block: 15.5216vw 3.3079vw;
   }
 
   .header-email {
