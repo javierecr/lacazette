@@ -30,9 +30,9 @@
 @media screen and (min-width: 1024px) {
   #layout {
     grid-template-rows: auto 1fr auto;
-    row-gap: 4rem;
+    row-gap: 0;
     align-items: center;
-    padding: 1rem;
+    padding: 0.58rem 1rem 1.5rem;
   }
 }
 </style>

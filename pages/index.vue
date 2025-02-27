@@ -7,14 +7,21 @@
     </div>
 
     <NuxtImg
-      src="/img/circle.gif"
+      src="/img/visual.gif"
       alt=""
-      placeholder="/img/circle-placeholder.jpg"
-      class="home-image"
+      placeholder="/img/visual-placeholder.jpeg"
+      class="home-image small-hide"
+    />
+
+    <NuxtImg
+      src="/img/visual_mobile.gif"
+      alt=""
+      placeholder="/img/visual-placeholder_mobile.jpeg"
+      class="home-image medium-up-hide"
     />
     <div class="recent-clients">
-      <p class="italic"><small>Recent Clients</small></p>
-      <ul>
+      <p class="text-smaller l-spacing-4 italic">Recent Clients</p>
+      <ul class="l-spacing-2">
         <li>Nike</li>
         <li>Travis Scott</li>
         <li>Mercedes Benz</li>
@@ -39,7 +46,7 @@
 }
 
 .tagline p {
-  max-width: 29ch;
+  max-width: 27ch;
   font-style: italic;
 }
 
@@ -51,9 +58,8 @@
 
 .home-image {
   max-height: 100%;
-  height: 100%;
-  width: 100%;
-  object-fit: contain;
+  height: auto;
+  width: 45.03631961259vw;
 }
 
 @media screen and (max-width: 1023px) {
@@ -67,10 +73,10 @@
 
 @media screen and (min-width: 1024px) {
   .home-content {
-    grid-template-columns: 29ch auto 29ch;
+    grid-template-columns: 27ch auto 27ch;
     justify-content: center;
     align-items: center;
-    gap: 4rem;
+    gap: 3.8741vw;
     padding: 0 2rem;
     height: 100%;
   }

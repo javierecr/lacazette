@@ -8,7 +8,8 @@ html {
   height: 100vh;
   height: 100dvh;
   font-family: 'Arial', sans-serif;
-  font-size: 1.73vh;
+  font-size: 0.9685vw;
+  letter-spacing: -0.01em;
   color: rgb(var(--black));
 }
 
@@ -20,6 +21,7 @@ body {
   display: grid;
   grid-template-rows: 1fr;
 }
+
 body > * {
   min-height: 0;
 }
@@ -43,21 +45,12 @@ a:hover {
 
 img {
   max-width: 100%;
-  height: auto;
-  vertical-align: middle;
-  font-style: italic;
-  background-repeat: no-repeat;
-  background-size: cover;
-  shape-margin: 1rem;
+  display: block;
 }
 
 .container {
   max-width: 1600vw;
   margin: 0 auto;
-}
-
-.italic {
-  font-style: italic;
 }
 
 @media screen and (max-width: 1023px) {
@@ -70,4 +63,32 @@ img {
   .medium-up-hide {
     display: none;
   }
+}
+
+.italic {
+  font-style: italic;
+}
+
+.text-small {
+  font-size: 0.7264vw;
+}
+
+.text-smaller {
+  font-size: 0.6457vw;
+}
+
+.text-smallest {
+  font-size: 0.4843vw;
+}
+
+.l-spacing-2 {
+  letter-spacing: -0.02em;
+}
+
+.l-spacing-4 {
+  letter-spacing: -0.04em;
+}
+
+.color-gray {
+  color: rgba(var(--black), 0.6);
 }
