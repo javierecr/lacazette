@@ -15,9 +15,9 @@
 <style scoped>
 #layout {
   overflow: hidden;
-  /* display: flex;
-  align-items: center;
-  justify-content: center; */
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
   height: 100vh;
 }
 
@@ -41,6 +41,10 @@
 }
 
 @media screen and (min-width: 1024px) {
+  #layout {
+    align-items: center;
+  }
+
   .aspect-ratio-container {
     position: relative;
     width: 100vw;
