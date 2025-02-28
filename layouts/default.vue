@@ -15,9 +15,9 @@
 <style scoped>
 #layout {
   overflow: hidden;
-  display: flex;
+  /* display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: center; */
   height: 100vh;
 }
 
