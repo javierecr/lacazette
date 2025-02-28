@@ -3,12 +3,12 @@
     <div class="footer-content">
       <Blurb class="small-hide" />
       <div class="footer-contact">
-        <p class="text-small">
+        <p class="">
           <a href="mailto:contact@lacazette.xyz">contact@lacazette.xyz</a>
         </p>
-        <p class="text-small italic small-hide">London / NYC</p>
+        <p class="italic small-hide">London / NYC</p>
         <UnderConstruction class="small-hide" />
-        <p class="text-smallest color-gray small-hide">LACAZETTE LTD</p>
+        <p class="copyright color-gray small-hide">LACAZETTE LTD</p>
       </div>
     </div>
   </footer>
@@ -26,15 +26,15 @@
 }
 
 .footer-content p:first-child {
-  margin-bottom: 1.33rem;
+  margin-bottom: 4.834605598vw;
 }
 
 .footer-content p:nth-child(2) {
-  margin-bottom: 1.92rem;
+  margin-bottom: min(3.4782608696vh, 1.875vw);
 }
 
 .footer-content p:last-child {
-  margin-top: 0.58rem;
+  margin-top: min(0.546875vw, 1.01449275362vh);
 }
 
 .footer-content > div:first-child {
@@ -45,17 +45,30 @@
   footer {
     order: 1;
   }
+
+  .footer-contact {
+    letter-spacing: -0.04em;
+  }
 }
+
 @media screen and (min-width: 1024px) {
   .footer-content {
     grid-template-columns: 1fr auto 1fr;
     padding-inline: 0.6667rem;
   }
 
+  .footer-content p:first-child {
+    margin-bottom: min(1.328125vw, 2.4637681159vh);
+  }
+
   .footer-contact {
-    margin-top: 1.5rem;
-    font-size: 0.75rem;
+    margin-top: min(1.40625vw, 2.6086956522vh);
+    font-size: min(0.703125vw, 1.3043478261vh);
     text-align: center;
+  }
+
+  .copyright {
+    font-size: 0.66em;
   }
 }
 </style>

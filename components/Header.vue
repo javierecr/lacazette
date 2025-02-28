@@ -20,7 +20,7 @@
   }
 
   .logo {
-    margin-block: 15.5216vw 3.3079vw;
+    margin-block: 15.5216284987vw 3.3078880407vw;
   }
 
   .header-email {
