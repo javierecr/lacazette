@@ -1,6 +1,6 @@
 <template>
   <p class="under-construction italic">
-    lacazette. xyz is currently under construction and will be back soon.
+    lacazette.xyz is currently under construction and will be back soon.
   </p>
 </template>
 

@@ -6,7 +6,7 @@
         <p class="">
           <a href="mailto:contact@lacazette.xyz">contact@lacazette.xyz</a>
         </p>
-        <p class="italic small-hide">London / NYC</p>
+        <p class="italic small-hide">London & New York</p>
         <UnderConstruction class="small-hide" />
         <p class="copyright color-gray small-hide">LACAZETTE LTD</p>
       </div>

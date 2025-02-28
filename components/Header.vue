@@ -4,7 +4,7 @@
     <h1>
       <img src="/img/logo_lacazette.svg" alt="lacazette logo" class="logo" />
     </h1>
-    <p class="medium-up-hide">London / NYC</p>
+    <p class="medium-up-hide">London & New York</p>
   </header>
 </template>
 
