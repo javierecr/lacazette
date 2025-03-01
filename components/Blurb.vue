@@ -2,7 +2,7 @@
   <div class="blurb l-spacing-4-minus">
     <p>
       Lacazette is a multi-disciplinary creative studio based in<br />
-      London& New York, that architects experiences that resonate.
+      London & New York, that architects experiences that resonate.
     </p>
     <p>
       Where impact meets aesthetic. we craft immersive worlds that deepen
@@ -19,10 +19,11 @@
 <style scoped>
 @media screen and (max-width: 1023px) {
   .blurb {
-    margin-top: 7.8880407125vw;
-    margin-bottom: 3.5623409669vw;
+    margin-top: min(4.6407185629vh, 7.8880407125vw);
+    margin-bottom: min(3.5623409669vw, 2.09580838323vh);
   }
 }
+
 p:not(:last-child) {
   margin-block-end: 1em;
 }

@@ -16,22 +16,33 @@
 #layout {
   overflow: hidden;
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   justify-content: center;
   height: 100vh;
 }
 
 .aspect-ratio-container {
+  position: relative;
   width: 100vw;
   width: 100dvw;
-  height: 100vh;
-  height: 100dvh;
+  height: 169.80676329vw;
+  height: 169.80676329dvw;
+  max-height: 100vh;
+  max-height: 100dvh;
+  max-width: 58.8904694168vh;
+  max-width: 58.8904694168dvh;
 }
 
 .layout-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
   display: grid;
   grid-template-rows: auto auto 1fr;
-  padding: 6.6157760814vw 2.5445292621vw 3.3078880407vw;
+  padding: min(6.6157760814vw, 3.8922155689vh)
+    min(0.7633587786vw, 0.4491017964vh) min(2.5445292621vw, 1.497005988vh);
 }
 
 @media screen and (max-width: 1023px) {
@@ -47,14 +58,10 @@
 
   .aspect-ratio-container {
     position: relative;
-    width: 100vw;
-    width: 100dvw;
-    height: 50vw;
-    height: 50dvw;
-    max-height: 100vh;
-    max-height: 100dvh;
-    max-width: 200vh;
-    max-width: 200dvh;
+    height: 53.90625vw;
+    height: 53.90625dvw;
+    max-width: 185.50724638vh;
+    max-width: 185.50724638dvh;
   }
 
   .layout-content {

@@ -6,7 +6,10 @@
         <p class="">
           <a href="mailto:contact@lacazette.xyz">contact@lacazette.xyz</a>
         </p>
-        <p class="italic small-hide">London & New York</p>
+        <p class="italic small-hide">
+          London <span class="medium-up-hide">&</span
+          ><span class="small-hide">/</span> New York
+        </p>
         <UnderConstruction class="small-hide" />
         <p class="copyright color-gray small-hide">LACAZETTE LTD</p>
       </div>
@@ -26,7 +29,7 @@
 }
 
 .footer-content p:first-child {
-  margin-bottom: 4.834605598vw;
+  margin-bottom: min(4.834605598vw, 2.8443113772vh);
 }
 
 .footer-content p:nth-child(2) {

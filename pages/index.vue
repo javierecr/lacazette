@@ -72,7 +72,7 @@
   .home-content {
     text-align: center;
     row-gap: 0;
-    margin-top: 4.3256997455vw;
+    margin-top: min(4.3256997455vw, 2.5449101796vh);
   }
 
   .home-content :last-child {
@@ -85,8 +85,9 @@
     grid-template-columns: 29ch min(45.078125vw, 83.6231884058vh) 29ch;
     justify-content: center;
     align-items: center;
-    gap: 3.8741vw;
-    padding: 0 2rem;
+    gap: min(3.1071655041vw, 5.7783018868vh);
+    padding: min(4.6924540266vw, 8.7264150943vh) 2rem
+      min(4.5990566038vh, 2.4730500951vw);
     height: 100%;
   }
 

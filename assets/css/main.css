@@ -8,7 +8,7 @@ html {
   height: 100vh;
   height: 100dvh;
   font-family: 'Arial', sans-serif;
-  font-size: 2.03562340967vw;
+  font-size: min(2.03562340967vw, 1.1976047904vh);
   color: rgb(var(--black));
 }
 
