@@ -22,6 +22,8 @@
   .logo {
     margin-block: min(15.5216284987vw, 9.1317365269vh)
       min(3.3078880407vw, 1.9461077844vh);
+    margin-block: min(15.5216284987vw, 9.1317365269dvh)
+      min(3.3078880407vw, 1.9461077844dvh);
   }
 
   .header-email {

@@ -23,6 +23,7 @@
   .tagline {
     justify-self: end;
     font-size: min(0.9685vw, 1.8018vh);
+    font-size: min(0.9685vw, 1.8018dvh);
   }
 }
 </style>

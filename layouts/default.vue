@@ -16,21 +16,20 @@
 #layout {
   overflow: hidden;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
   height: 100vh;
+  height: 100dvh;
 }
 
 .aspect-ratio-container {
   position: relative;
   width: 100vw;
-  width: 100dvw;
-  height: 169.80676329vw;
-  height: 169.80676329dvw;
+  height: 169.97455471vw;
   max-height: 100vh;
   max-height: 100dvh;
-  max-width: 58.8904694168vh;
-  max-width: 58.8904694168dvh;
+  max-width: 58.8323353293vh;
+  max-width: 58.8323353293dvh;
 }
 
 .layout-content {
@@ -41,8 +40,10 @@
   height: 100%;
   display: grid;
   grid-template-rows: auto auto 1fr;
-  padding: min(6.6157760814vw, 3.8922155689vh)
-    min(0.7633587786vw, 0.4491017964vh) min(2.5445292621vw, 1.497005988vh);
+  padding: min(2.5445292621vw, 1.497005988vh)
+    min(0.7633587786vw, 0.4491017964vh);
+  padding: min(6.6157760814vw, 3.8922155689dvh)
+    min(0.7633587786vw, 0.4491017964dvh) min(2.5445292621vw, 1.497005988dvh);
 }
 
 @media screen and (max-width: 1023px) {
@@ -74,6 +75,8 @@
     grid-template-rows: auto 1fr auto;
     padding: min(1.015625vw, 1.884057971vh) min(1.5625vw, 3.003003003003vh)
       min(1.5625vw, 3.003003003003vh);
+    padding: min(1.015625vw, 1.884057971dvh) min(1.5625vw, 3.003003003003dvh)
+      min(1.5625vw, 3.003003003003dvh);
   }
 }
 

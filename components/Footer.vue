@@ -30,14 +30,17 @@
 
 .footer-content p:first-child {
   margin-bottom: min(4.834605598vw, 2.8443113772vh);
+  margin-bottom: min(4.834605598vw, 2.8443113772dvh);
 }
 
 .footer-content p:nth-child(2) {
   margin-bottom: min(3.4782608696vh, 1.875vw);
+  margin-bottom: min(3.4782608696dvh, 1.875vw);
 }
 
 .footer-content p:last-child {
   margin-top: min(0.546875vw, 1.01449275362vh);
+  margin-top: min(0.546875vw, 1.01449275362dvh);
 }
 
 .footer-content > div:first-child {
@@ -62,11 +65,14 @@
 
   .footer-content p:first-child {
     margin-bottom: min(1.328125vw, 2.4637681159vh);
+    margin-bottom: min(1.328125vw, 2.4637681159dvh);
   }
 
   .footer-contact {
     margin-top: min(1.40625vw, 2.6086956522vh);
+    margin-top: min(1.40625vw, 2.6086956522dvh);
     font-size: min(0.703125vw, 1.3043478261vh);
+    font-size: min(0.703125vw, 1.3043478261dvh);
     text-align: center;
   }
 

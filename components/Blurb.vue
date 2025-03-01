@@ -20,7 +20,9 @@
 @media screen and (max-width: 1023px) {
   .blurb {
     margin-top: min(4.6407185629vh, 7.8880407125vw);
+    margin-top: min(4.6407185629dvh, 7.8880407125vw);
     margin-bottom: min(3.5623409669vw, 2.09580838323vh);
+    margin-bottom: min(3.5623409669vw, 2.09580838323dvh);
   }
 }
 
@@ -40,6 +42,7 @@ p:not(:last-child) {
     letter-spacing: -0.03em;
     line-height: normal;
     font-size: min(0.6456820016vw, 1.2012012012vh);
+    font-size: min(0.6456820016vw, 1.2012012012dvh);
   }
 }
 </style>
